@@ -2,7 +2,7 @@
 <html version="HTML+RDFa 1.1">
   <head>
     <meta charset="UTF-8">
-    <title>Mateus Avila - Front-end Developer - HTML5, CSS3, Mobile, Jquery, Javascript, Fireworks, Ruby, PHP, Mysql</title>
+    <title>Mateus Avila - Front-end Developer - HTML5, CSS3, Mobile, Jquery, Javascript, Fireworks, Ruby, PHP, MySQL</title>
     <link rel="stylesheet/less" type="text/css" href="css/elements.less">
     <link rel="stylesheet/less" type="text/css" href="css/style.less">
     <link rel="stylesheet/less" type="text/css" href="css/mobile.less" media="screen and (max-width:479px)">
