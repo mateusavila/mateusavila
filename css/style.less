@@ -1,0 +1,72 @@
+@import "elements.less";
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strike, strong, sub, sup, tt, var,b, i, dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after{content: '';content: none;}
+:focus {outline:none;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+//webfonts
+
+@font-face{font-family:'LaneNarrowRegular';src:url('LANENAR_-webfont.eot');src:url('LANENAR_-webfont.eot?#iefix')format('embedded-opentype'),url('LANENAR_-webfont.woff')format('woff'),url('LANENAR_-webfont.ttf')format('truetype'),url('LANENAR_-webfont.svg#LaneNarrowRegular')format('svg');font-weight:normal;font-style:normal;}
+
+
+// variaveis
+
+@Ye: #FF00FF;
+@blue: #0000ff;
+@defaultPadding: 5px 10px;
+@defaultColor: #ffffff;
+@defaultColorHover:#383838;
+
+html{background:url('../images/background.png') fixed;font-family:"LaneNarrowRegular";font-size:100%;color: #fff;}
+body{font-size:14px;.centerDiv(920px)}
+
+/*header*/
+header{margin: 15px 0;float: left;height: 100px;}
+
+/*hgroup*/
+h1{margin: 4px 2px;font-size: 16px;.txt-shadow(0,1px,2px,0.8);font-weight: 400;}
+h2{font-size: 60px;font-weight: 400;.txt-shadow(0,1px,2px,0.8);}
+h2.eng{font-size: 55px;}
+h3{font-size: 24px;}
+
+/*section*/
+section{float: left;margin: 20px 0;}
+
+/*footer*/
+footer{position: absolute;.centerDiv(920px);bottom: 10px;line-height: 22px;text-align: right;}
+footer b{font-weight: 400;display: inline;float: left;}
+
+/*navigation*/
+nav{float: left;margin: 25px 0 20px;}
+nav ul li{line-height: 24px;margin:0 0 5px;font-size: 20px;}
+nav ul li a{color: #fff;font-size: 20px;text-decoration: none;}
+nav ul li a:hover{text-decoration: underline;}
+nav ul li span{float: left;line-height: 24px;margin: 0 5px 0 0;}
+
+/*sprites*/
+span.sprite{display: block;background: url('../images/spriteIcons.png');}
+	/*logo*/
+	header span.logo{background-position: 0 0;width: 197px;height: 38px;margin: 20px 0 0 0;}
+	/*contact*/
+	nav ul li span.contact{background-position: 0 -40px;width: 24px;height: 15px;margin:7px 5px 0 0}
+	/*skype*/
+	nav ul li span.skype{background-position: -26px -40px;width: 24px;height: 24px;}
+	/*linkedin*/
+	nav ul li span.linkedin{background-position: -52px -40px;width: 24px;height: 24px;}
+	/*linkedin*/
+	nav ul li span.facebook{background-position: -78px -40px;width: 24px;height: 24px;}
+	/*linkedin*/
+	nav ul li span.twitter{background-position: -105px -40px;width: 18px;height: 24px;margin:0 8px 0 3px}
+	/*linkedin*/
+	nav ul li span.phone{background-position: -125px -40px;width: 24px;height: 24px;}
+	/*html5*/
+	footer span.html5{background-position: -150px -40px;width: 24px;height: 24px;float: right;margin:0 2px}
+	/*css3*/
+	footer span.css3{background-position: -175px -40px;width: 24px;height: 24px;float: right;margin:0 2px}
+
